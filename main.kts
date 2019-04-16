@@ -8,9 +8,9 @@
         returned to tutor Nero. He lost favor with Nero over time after Nero became a ruler 
         Seneca took his own life because he complicated was part of a conspiracy to kill nero (DOPE)
     WHAT DID HE STUDY: Stoic Philosophy 
-        WHAT IS WHAT HE STUDY: A refinement of cynicism which teacher self control as 
-            a means of controlling destructive emotions (but honestly self destructive emotions are kind of 
-            fun, so why did he do that to himself?? )
+    WHAT IS WHAT HE STUDY: A refinement of cynicism which teacher self control as 
+    a means of controlling destructive emotions (but honestly self destructive emotions are kind of 
+    fun, so why did he do that to himself?? )
  */
 
 println("UW Complex Kotlin homework")
@@ -61,7 +61,6 @@ enum class Philosopher {
             return "Deep thoughts...."
         }
     },  
-
     TALKING {
         override fun signal() = THINKING 
         override fun toString(): String {
@@ -70,7 +69,6 @@ enum class Philosopher {
     };
     abstract fun signal(): Philosopher
 }
-
  
 // create an class "Command" that can be used as a function (provide an "invoke()" function)
 // that takes a single parameter ("message" of type String)
